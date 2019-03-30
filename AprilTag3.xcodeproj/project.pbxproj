@@ -8,173 +8,56 @@
 
 /* Begin PBXBuildFile section */
 		E7043F4622502211006F24AA /* CameraWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = E7043EC022502211006F24AA /* CameraWrapper.m */; };
-		E7043F4722502211006F24AA /* Icon-29.png in Resources */ = {isa = PBXBuildFile; fileRef = E7043EC122502211006F24AA /* Icon-29.png */; };
 		E7043F4822502211006F24AA /* texture_pm.frag in Resources */ = {isa = PBXBuildFile; fileRef = E7043EC222502211006F24AA /* texture_pm.frag */; };
-		E7043F4922502211006F24AA /* Icon-16.png in Resources */ = {isa = PBXBuildFile; fileRef = E7043EC322502211006F24AA /* Icon-16.png */; };
 		E7043F4A22502211006F24AA /* apriltag_pose.c in Sources */ = {isa = PBXBuildFile; fileRef = E7043EC622502211006F24AA /* apriltag_pose.c */; };
-		E7043F4B22502211006F24AA /* tagStandard52h13.c in Sources */ = {isa = PBXBuildFile; fileRef = E7043EC722502211006F24AA /* tagStandard52h13.c */; };
 		E7043F4C22502211006F24AA /* tag36h11.c in Sources */ = {isa = PBXBuildFile; fileRef = E7043EC822502211006F24AA /* tag36h11.c */; };
-		E7043F4D22502211006F24AA /* CMakeLists.txt in Resources */ = {isa = PBXBuildFile; fileRef = E7043ECA22502211006F24AA /* CMakeLists.txt */; };
 		E7043F4E22502211006F24AA /* tagCustom48h12.c in Sources */ = {isa = PBXBuildFile; fileRef = E7043ECD22502211006F24AA /* tagCustom48h12.c */; };
 		E7043F4F22502211006F24AA /* package.xml in Resources */ = {isa = PBXBuildFile; fileRef = E7043ECE22502211006F24AA /* package.xml */; };
-		E7043F5022502211006F24AA /* Makefile in Sources */ = {isa = PBXBuildFile; fileRef = E7043ECF22502211006F24AA /* Makefile */; };
-		E7043F5122502211006F24AA /* opencv_demo.cc in Sources */ = {isa = PBXBuildFile; fileRef = E7043ED122502211006F24AA /* opencv_demo.cc */; };
-		E7043F5222502211006F24AA /* apriltag_demo.c in Sources */ = {isa = PBXBuildFile; fileRef = E7043ED222502211006F24AA /* apriltag_demo.c */; };
-		E7043F5322502211006F24AA /* Makefile in Sources */ = {isa = PBXBuildFile; fileRef = E7043ED322502211006F24AA /* Makefile */; };
 		E7043F5422502211006F24AA /* README in Resources */ = {isa = PBXBuildFile; fileRef = E7043ED422502211006F24AA /* README */; };
-		E7043F5522502211006F24AA /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = E7043ED522502211006F24AA /* .gitignore */; };
-		E7043F5622502211006F24AA /* tagCircle21h7.c in Sources */ = {isa = PBXBuildFile; fileRef = E7043ED622502211006F24AA /* tagCircle21h7.c */; };
-		E7043F5722502211006F24AA /* install.sh in Resources */ = {isa = PBXBuildFile; fileRef = E7043ED722502211006F24AA /* install.sh */; };
-		E7043F5822502211006F24AA /* tagStandard41h12.c in Sources */ = {isa = PBXBuildFile; fileRef = E7043EDA22502211006F24AA /* tagStandard41h12.c */; };
 		E7043F5922502211006F24AA /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = E7043EDB22502211006F24AA /* README.md */; };
 		E7043F5A22502211006F24AA /* tag16h5.c in Sources */ = {isa = PBXBuildFile; fileRef = E7043EDC22502211006F24AA /* tag16h5.c */; };
 		E7043F5B22502211006F24AA /* unionfind.c in Sources */ = {isa = PBXBuildFile; fileRef = E7043EE222502211006F24AA /* unionfind.c */; };
-		E7043F5C22502211006F24AA /* zmaxheap.c in Sources */ = {isa = PBXBuildFile; fileRef = E7043EE522502211006F24AA /* zmaxheap.c */; };
-		E7043F5D22502211006F24AA /* image_u8.c in Sources */ = {isa = PBXBuildFile; fileRef = E7043EEA22502211006F24AA /* image_u8.c */; };
 		E7043F5E22502211006F24AA /* zarray.c in Sources */ = {isa = PBXBuildFile; fileRef = E7043EED22502211006F24AA /* zarray.c */; };
 		E7043F5F22502211006F24AA /* workerpool.c in Sources */ = {isa = PBXBuildFile; fileRef = E7043EEE22502211006F24AA /* workerpool.c */; };
-		E7043F6022502211006F24AA /* svd22.c in Sources */ = {isa = PBXBuildFile; fileRef = E7043EEF22502211006F24AA /* svd22.c */; };
-		E7043F6122502211006F24AA /* pjpeg.c in Sources */ = {isa = PBXBuildFile; fileRef = E7043EF122502211006F24AA /* pjpeg.c */; };
 		E7043F6222502211006F24AA /* image_u8x4.c in Sources */ = {isa = PBXBuildFile; fileRef = E7043EF422502211006F24AA /* image_u8x4.c */; };
 		E7043F6322502211006F24AA /* pam.c in Sources */ = {isa = PBXBuildFile; fileRef = E7043EF822502211006F24AA /* pam.c */; };
 		E7043F6422502211006F24AA /* time_util.c in Sources */ = {isa = PBXBuildFile; fileRef = E7043EF922502211006F24AA /* time_util.c */; };
-		E7043F6522502211006F24AA /* pjpeg-idct.c in Sources */ = {isa = PBXBuildFile; fileRef = E7043EFA22502211006F24AA /* pjpeg-idct.c */; };
-		E7043F6622502211006F24AA /* string_util.c in Sources */ = {isa = PBXBuildFile; fileRef = E7043EFB22502211006F24AA /* string_util.c */; };
 		E7043F6722502211006F24AA /* matd.c in Sources */ = {isa = PBXBuildFile; fileRef = E7043EFD22502211006F24AA /* matd.c */; };
-		E7043F6822502211006F24AA /* zhash.c in Sources */ = {isa = PBXBuildFile; fileRef = E7043F0022502211006F24AA /* zhash.c */; };
-		E7043F6922502211006F24AA /* image_u8x3.c in Sources */ = {isa = PBXBuildFile; fileRef = E7043F0222502211006F24AA /* image_u8x3.c */; };
 		E7043F6A22502211006F24AA /* homography.c in Sources */ = {isa = PBXBuildFile; fileRef = E7043F0422502211006F24AA /* homography.c */; };
-		E7043F6B22502211006F24AA /* g2d.c in Sources */ = {isa = PBXBuildFile; fileRef = E7043F0522502211006F24AA /* g2d.c */; };
-		E7043F6C22502211006F24AA /* getopt.c in Sources */ = {isa = PBXBuildFile; fileRef = E7043F0722502211006F24AA /* getopt.c */; };
 		E7043F6D22502211006F24AA /* pnm.c in Sources */ = {isa = PBXBuildFile; fileRef = E7043F0822502211006F24AA /* pnm.c */; };
-		E7043F6E22502211006F24AA /* apriltag_quad_thresh.c in Sources */ = {isa = PBXBuildFile; fileRef = E7043F0C22502211006F24AA /* apriltag_quad_thresh.c */; };
-		E7043F6F22502211006F24AA /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = E7043F0E22502211006F24AA /* .gitignore */; };
-		E7043F7022502211006F24AA /* tagCircle49h12.c in Sources */ = {isa = PBXBuildFile; fileRef = E7043F0F22502211006F24AA /* tagCircle49h12.c */; };
 		E7043F7122502211006F24AA /* apriltag.c in Sources */ = {isa = PBXBuildFile; fileRef = E7043F1122502211006F24AA /* apriltag.c */; };
 		E7043F7222502211006F24AA /* apriltag.pc.in in Resources */ = {isa = PBXBuildFile; fileRef = E7043F1322502211006F24AA /* apriltag.pc.in */; };
-		E7043F7322502211006F24AA /* tag25h9.c in Sources */ = {isa = PBXBuildFile; fileRef = E7043F1522502211006F24AA /* tag25h9.c */; };
-		E7043F7422502211006F24AA /* Icon-256.png in Resources */ = {isa = PBXBuildFile; fileRef = E7043F1622502211006F24AA /* Icon-256.png */; };
-		E7043F7522502211006F24AA /* vcolor_pm.frag in Resources */ = {isa = PBXBuildFile; fileRef = E7043F1722502211006F24AA /* vcolor_pm.frag */; };
-		E7043F7622502211006F24AA /* Icon-120.png in Resources */ = {isa = PBXBuildFile; fileRef = E7043F1822502211006F24AA /* Icon-120.png */; };
-		E7043F7722502211006F24AA /* Icon-88.png in Resources */ = {isa = PBXBuildFile; fileRef = E7043F1922502211006F24AA /* Icon-88.png */; };
-		E7043F7822502211006F24AA /* Icon-144.png in Resources */ = {isa = PBXBuildFile; fileRef = E7043F1A22502211006F24AA /* Icon-144.png */; };
-		E7043F7922502211006F24AA /* happytag1024.png in Resources */ = {isa = PBXBuildFile; fileRef = E7043F1B22502211006F24AA /* happytag1024.png */; };
-		E7043F7A22502211006F24AA /* Icon-76.png in Resources */ = {isa = PBXBuildFile; fileRef = E7043F1C22502211006F24AA /* Icon-76.png */; };
-		E7043F7B22502211006F24AA /* Icon-60.png in Resources */ = {isa = PBXBuildFile; fileRef = E7043F1D22502211006F24AA /* Icon-60.png */; };
-		E7043F7C22502211006F24AA /* Icon-48.png in Resources */ = {isa = PBXBuildFile; fileRef = E7043F1E22502211006F24AA /* Icon-48.png */; };
-		E7043F7D22502211006F24AA /* Icon-1024.png in Resources */ = {isa = PBXBuildFile; fileRef = E7043F1F22502211006F24AA /* Icon-1024.png */; };
 		E7043F7E22502211006F24AA /* ucolor_pm.vert in Resources */ = {isa = PBXBuildFile; fileRef = E7043F2022502211006F24AA /* ucolor_pm.vert */; };
-		E7043F7F22502211006F24AA /* Icon-152.png in Resources */ = {isa = PBXBuildFile; fileRef = E7043F2122502211006F24AA /* Icon-152.png */; };
 		E7043F8022502211006F24AA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E7043F2222502211006F24AA /* Assets.xcassets */; };
 		E7043F8122502211006F24AA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E7043F2322502211006F24AA /* ViewController.m */; };
-		E7043F8222502211006F24AA /* Icon-180.png in Resources */ = {isa = PBXBuildFile; fileRef = E7043F2422502211006F24AA /* Icon-180.png */; };
-		E7043F8322502211006F24AA /* Icon-64.png in Resources */ = {isa = PBXBuildFile; fileRef = E7043F2522502211006F24AA /* Icon-64.png */; };
-		E7043F8422502211006F24AA /* Icon-58.png in Resources */ = {isa = PBXBuildFile; fileRef = E7043F2622502211006F24AA /* Icon-58.png */; };
-		E7043F8522502211006F24AA /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = E7043F2722502211006F24AA /* Icon-72.png */; };
-		E7043F8622502211006F24AA /* example.pnm in Resources */ = {isa = PBXBuildFile; fileRef = E7043F2822502211006F24AA /* example.pnm */; };
-		E7043F8722502211006F24AA /* Icon-196.png in Resources */ = {isa = PBXBuildFile; fileRef = E7043F2922502211006F24AA /* Icon-196.png */; };
 		E7043F8822502211006F24AA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E7043F2A22502211006F24AA /* LaunchScreen.storyboard */; };
-		E7043F8922502211006F24AA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E7043F2C22502211006F24AA /* Main.storyboard */; };
-		E7043F8A22502211006F24AA /* Icon-80.png in Resources */ = {isa = PBXBuildFile; fileRef = E7043F2E22502211006F24AA /* Icon-80.png */; };
-		E7043F8B22502211006F24AA /* Icon-57.png in Resources */ = {isa = PBXBuildFile; fileRef = E7043F2F22502211006F24AA /* Icon-57.png */; };
-		E7043F8C22502211006F24AA /* Icon-55.png in Resources */ = {isa = PBXBuildFile; fileRef = E7043F3022502211006F24AA /* Icon-55.png */; };
-		E7043F8D22502211006F24AA /* Icon-172.png in Resources */ = {isa = PBXBuildFile; fileRef = E7043F3122502211006F24AA /* Icon-172.png */; };
 		E7043F8E22502211006F24AA /* vcolor_pm.vert in Resources */ = {isa = PBXBuildFile; fileRef = E7043F3222502211006F24AA /* vcolor_pm.vert */; };
 		E7043F8F22502211006F24AA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E7043F3422502211006F24AA /* main.m */; };
-		E7043F9022502211006F24AA /* Icon-167.png in Resources */ = {isa = PBXBuildFile; fileRef = E7043F3522502211006F24AA /* Icon-167.png */; };
-		E7043F9122502211006F24AA /* Icon-40.png in Resources */ = {isa = PBXBuildFile; fileRef = E7043F3622502211006F24AA /* Icon-40.png */; };
-		E7043F9222502211006F24AA /* Icon-50.png in Resources */ = {isa = PBXBuildFile; fileRef = E7043F3722502211006F24AA /* Icon-50.png */; };
-		E7043F9322502211006F24AA /* Icon-87.png in Resources */ = {isa = PBXBuildFile; fileRef = E7043F3822502211006F24AA /* Icon-87.png */; };
 		E7043F9422502211006F24AA /* texture_pm.vert in Resources */ = {isa = PBXBuildFile; fileRef = E7043F3922502211006F24AA /* texture_pm.vert */; };
-		E7043F9522502211006F24AA /* happytag1024.xcf in Resources */ = {isa = PBXBuildFile; fileRef = E7043F3A22502211006F24AA /* happytag1024.xcf */; };
 		E7043F9622502211006F24AA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E7043F3B22502211006F24AA /* AppDelegate.m */; };
-		E7043F9722502211006F24AA /* Icon-20.png in Resources */ = {isa = PBXBuildFile; fileRef = E7043F3C22502211006F24AA /* Icon-20.png */; };
 		E7043F9822502211006F24AA /* ucolor_pm.frag in Resources */ = {isa = PBXBuildFile; fileRef = E7043F3D22502211006F24AA /* ucolor_pm.frag */; };
-		E7043F9922502211006F24AA /* Icon-128.png in Resources */ = {isa = PBXBuildFile; fileRef = E7043F3E22502211006F24AA /* Icon-128.png */; };
-		E7043F9A22502211006F24AA /* Icon-100.png in Resources */ = {isa = PBXBuildFile; fileRef = E7043F3F22502211006F24AA /* Icon-100.png */; };
-		E7043F9B22502211006F24AA /* Icon-114.png in Resources */ = {isa = PBXBuildFile; fileRef = E7043F4022502211006F24AA /* Icon-114.png */; };
-		E7043F9C22502211006F24AA /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = E7043F4122502211006F24AA /* Default.png */; };
-		E7043F9D22502211006F24AA /* Icon-32.png in Resources */ = {isa = PBXBuildFile; fileRef = E7043F4222502211006F24AA /* Icon-32.png */; };
-		E7043F9E22502211006F24AA /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E7043F4322502211006F24AA /* Info.plist */; };
-		E7043F9F22502211006F24AA /* Icon-512.png in Resources */ = {isa = PBXBuildFile; fileRef = E7043F4522502211006F24AA /* Icon-512.png */; };
-		E75127BF224FDECD00C49DD7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E75127BE224FDECD00C49DD7 /* AppDelegate.m */; };
-		E75127C2224FDECD00C49DD7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E75127C1224FDECD00C49DD7 /* ViewController.m */; };
 		E75127C5224FDECD00C49DD7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E75127C3224FDECD00C49DD7 /* Main.storyboard */; };
-		E75127C7224FDECD00C49DD7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E75127C6224FDECD00C49DD7 /* Assets.xcassets */; };
-		E75127CA224FDECD00C49DD7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E75127C8224FDECD00C49DD7 /* LaunchScreen.storyboard */; };
-		E75127CD224FDECD00C49DD7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E75127CC224FDECD00C49DD7 /* main.m */; };
-		E75127FF224FDF2500C49DD7 /* CameraWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = E75127FE224FDF2500C49DD7 /* CameraWrapper.m */; };
-		E75128DA224FE8F800C49DD7 /* unionfind.c in Sources */ = {isa = PBXBuildFile; fileRef = E75128B1224FE8F700C49DD7 /* unionfind.c */; };
 		E75128DB224FE8F800C49DD7 /* zmaxheap.c in Sources */ = {isa = PBXBuildFile; fileRef = E75128B4224FE8F700C49DD7 /* zmaxheap.c */; };
 		E75128DC224FE8F800C49DD7 /* image_u8.c in Sources */ = {isa = PBXBuildFile; fileRef = E75128B9224FE8F700C49DD7 /* image_u8.c */; };
-		E75128DD224FE8F800C49DD7 /* zarray.c in Sources */ = {isa = PBXBuildFile; fileRef = E75128BC224FE8F700C49DD7 /* zarray.c */; };
-		E75128DE224FE8F800C49DD7 /* workerpool.c in Sources */ = {isa = PBXBuildFile; fileRef = E75128BD224FE8F700C49DD7 /* workerpool.c */; };
 		E75128DF224FE8F800C49DD7 /* svd22.c in Sources */ = {isa = PBXBuildFile; fileRef = E75128BE224FE8F700C49DD7 /* svd22.c */; };
 		E75128E0224FE8F800C49DD7 /* pjpeg.c in Sources */ = {isa = PBXBuildFile; fileRef = E75128C0224FE8F700C49DD7 /* pjpeg.c */; };
-		E75128E1224FE8F800C49DD7 /* image_u8x4.c in Sources */ = {isa = PBXBuildFile; fileRef = E75128C3224FE8F700C49DD7 /* image_u8x4.c */; };
-		E75128E2224FE8F800C49DD7 /* pam.c in Sources */ = {isa = PBXBuildFile; fileRef = E75128C7224FE8F700C49DD7 /* pam.c */; };
-		E75128E3224FE8F800C49DD7 /* time_util.c in Sources */ = {isa = PBXBuildFile; fileRef = E75128C8224FE8F700C49DD7 /* time_util.c */; };
 		E75128E4224FE8F800C49DD7 /* pjpeg-idct.c in Sources */ = {isa = PBXBuildFile; fileRef = E75128C9224FE8F700C49DD7 /* pjpeg-idct.c */; };
 		E75128E5224FE8F800C49DD7 /* string_util.c in Sources */ = {isa = PBXBuildFile; fileRef = E75128CA224FE8F700C49DD7 /* string_util.c */; };
-		E75128E6224FE8F800C49DD7 /* matd.c in Sources */ = {isa = PBXBuildFile; fileRef = E75128CC224FE8F700C49DD7 /* matd.c */; };
 		E75128E7224FE8F800C49DD7 /* zhash.c in Sources */ = {isa = PBXBuildFile; fileRef = E75128CF224FE8F700C49DD7 /* zhash.c */; };
 		E75128E8224FE8F800C49DD7 /* image_u8x3.c in Sources */ = {isa = PBXBuildFile; fileRef = E75128D1224FE8F700C49DD7 /* image_u8x3.c */; };
 		E75128EA224FE8F800C49DD7 /* g2d.c in Sources */ = {isa = PBXBuildFile; fileRef = E75128D4224FE8F700C49DD7 /* g2d.c */; };
 		E75128EB224FE8F800C49DD7 /* getopt.c in Sources */ = {isa = PBXBuildFile; fileRef = E75128D6224FE8F700C49DD7 /* getopt.c */; };
-		E75128EC224FE8F800C49DD7 /* pnm.c in Sources */ = {isa = PBXBuildFile; fileRef = E75128D7224FE8F700C49DD7 /* pnm.c */; };
-		E75128EE224FE92C00C49DD7 /* tag25h9.c in Sources */ = {isa = PBXBuildFile; fileRef = E75128ED224FE92C00C49DD7 /* tag25h9.c */; };
 		E7512905224FE94D00C49DD7 /* tag25h9.c in Sources */ = {isa = PBXBuildFile; fileRef = E75128EF224FE94C00C49DD7 /* tag25h9.c */; };
 		E7512906224FE94D00C49DD7 /* tagCircle49h12.c in Sources */ = {isa = PBXBuildFile; fileRef = E75128F1224FE94C00C49DD7 /* tagCircle49h12.c */; };
-		E7512907224FE94D00C49DD7 /* tag36h11.c in Sources */ = {isa = PBXBuildFile; fileRef = E75128F2224FE94C00C49DD7 /* tag36h11.c */; };
 		E7512908224FE94D00C49DD7 /* tagCircle21h7.c in Sources */ = {isa = PBXBuildFile; fileRef = E75128F3224FE94C00C49DD7 /* tagCircle21h7.c */; };
-		E7512909224FE94D00C49DD7 /* apriltag_pose.c in Sources */ = {isa = PBXBuildFile; fileRef = E75128F4224FE94C00C49DD7 /* apriltag_pose.c */; };
 		E751290A224FE94D00C49DD7 /* tagStandard52h13.c in Sources */ = {isa = PBXBuildFile; fileRef = E75128F5224FE94C00C49DD7 /* tagStandard52h13.c */; };
-		E751290B224FE94D00C49DD7 /* tag16h5.c in Sources */ = {isa = PBXBuildFile; fileRef = E75128F7224FE94C00C49DD7 /* tag16h5.c */; };
-		E751290C224FE94D00C49DD7 /* tagCustom48h12.c in Sources */ = {isa = PBXBuildFile; fileRef = E75128F8224FE94C00C49DD7 /* tagCustom48h12.c */; };
 		E751290D224FE94D00C49DD7 /* tagStandard41h12.c in Sources */ = {isa = PBXBuildFile; fileRef = E75128F9224FE94C00C49DD7 /* tagStandard41h12.c */; };
 		E751290E224FE94D00C49DD7 /* apriltag_quad_thresh.c in Sources */ = {isa = PBXBuildFile; fileRef = E75128FF224FE94D00C49DD7 /* apriltag_quad_thresh.c */; };
-		E751290F224FE94D00C49DD7 /* apriltag.c in Sources */ = {isa = PBXBuildFile; fileRef = E7512903224FE94D00C49DD7 /* apriltag.c */; };
 		E7512914224FE9AD00C49DD7 /* ShaderUtilities.c in Sources */ = {isa = PBXBuildFile; fileRef = E7512912224FE9AD00C49DD7 /* ShaderUtilities.c */; };
 		E7512915224FE9AD00C49DD7 /* GLESProgram.m in Sources */ = {isa = PBXBuildFile; fileRef = E7512913224FE9AD00C49DD7 /* GLESProgram.m */; };
 		E7512918224FE9D700C49DD7 /* udp_util.c in Sources */ = {isa = PBXBuildFile; fileRef = E7512917224FE9D600C49DD7 /* udp_util.c */; };
-		E751291B224FED2500C49DD7 /* texture_pm.vert in Resources */ = {isa = PBXBuildFile; fileRef = E7512919224FED2500C49DD7 /* texture_pm.vert */; };
-		E751291C224FED2500C49DD7 /* texture_pm.frag in Resources */ = {isa = PBXBuildFile; fileRef = E751291A224FED2500C49DD7 /* texture_pm.frag */; };
-		E7512921224FED7300C49DD7 /* ucolor_pm.vert in Resources */ = {isa = PBXBuildFile; fileRef = E751291D224FED7300C49DD7 /* ucolor_pm.vert */; };
 		E7512922224FED7300C49DD7 /* vcolor_pm.frag in Resources */ = {isa = PBXBuildFile; fileRef = E751291E224FED7300C49DD7 /* vcolor_pm.frag */; };
-		E7512923224FED7300C49DD7 /* ucolor_pm.frag in Resources */ = {isa = PBXBuildFile; fileRef = E751291F224FED7300C49DD7 /* ucolor_pm.frag */; };
-		E7512924224FED7300C49DD7 /* vcolor_pm.vert in Resources */ = {isa = PBXBuildFile; fileRef = E7512920224FED7300C49DD7 /* vcolor_pm.vert */; };
 		E7512926224FFC4700C49DD7 /* example.pnm in Resources */ = {isa = PBXBuildFile; fileRef = E7512925224FFC4700C49DD7 /* example.pnm */; };
-		E7512981224FFE6200C49DD7 /* Icon-16.png in Resources */ = {isa = PBXBuildFile; fileRef = E7512963224FFE5F00C49DD7 /* Icon-16.png */; };
-		E7512982224FFE6200C49DD7 /* Icon-114.png in Resources */ = {isa = PBXBuildFile; fileRef = E7512964224FFE5F00C49DD7 /* Icon-114.png */; };
-		E7512983224FFE6200C49DD7 /* Icon-88.png in Resources */ = {isa = PBXBuildFile; fileRef = E7512965224FFE5F00C49DD7 /* Icon-88.png */; };
-		E7512984224FFE6200C49DD7 /* Icon-55.png in Resources */ = {isa = PBXBuildFile; fileRef = E7512966224FFE5F00C49DD7 /* Icon-55.png */; };
-		E7512985224FFE6200C49DD7 /* Icon-172.png in Resources */ = {isa = PBXBuildFile; fileRef = E7512967224FFE5F00C49DD7 /* Icon-172.png */; };
-		E7512986224FFE6200C49DD7 /* Icon-1024.png in Resources */ = {isa = PBXBuildFile; fileRef = E7512968224FFE6000C49DD7 /* Icon-1024.png */; };
-		E7512987224FFE6200C49DD7 /* Icon-48.png in Resources */ = {isa = PBXBuildFile; fileRef = E7512969224FFE6000C49DD7 /* Icon-48.png */; };
-		E7512988224FFE6200C49DD7 /* Icon-50.png in Resources */ = {isa = PBXBuildFile; fileRef = E751296A224FFE6000C49DD7 /* Icon-50.png */; };
-		E7512989224FFE6200C49DD7 /* Icon-57.png in Resources */ = {isa = PBXBuildFile; fileRef = E751296B224FFE6000C49DD7 /* Icon-57.png */; };
-		E751298A224FFE6200C49DD7 /* Icon-40.png in Resources */ = {isa = PBXBuildFile; fileRef = E751296C224FFE6000C49DD7 /* Icon-40.png */; };
-		E751298B224FFE6200C49DD7 /* Icon-29.png in Resources */ = {isa = PBXBuildFile; fileRef = E751296D224FFE6000C49DD7 /* Icon-29.png */; };
-		E751298C224FFE6200C49DD7 /* Icon-256.png in Resources */ = {isa = PBXBuildFile; fileRef = E751296E224FFE6000C49DD7 /* Icon-256.png */; };
-		E751298D224FFE6200C49DD7 /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = E751296F224FFE6000C49DD7 /* Icon-72.png */; };
-		E751298E224FFE6200C49DD7 /* Icon-152.png in Resources */ = {isa = PBXBuildFile; fileRef = E7512970224FFE6000C49DD7 /* Icon-152.png */; };
-		E751298F224FFE6200C49DD7 /* Icon-512.png in Resources */ = {isa = PBXBuildFile; fileRef = E7512971224FFE6000C49DD7 /* Icon-512.png */; };
-		E7512990224FFE6200C49DD7 /* Icon-20.png in Resources */ = {isa = PBXBuildFile; fileRef = E7512972224FFE6000C49DD7 /* Icon-20.png */; };
-		E7512991224FFE6200C49DD7 /* Icon-80.png in Resources */ = {isa = PBXBuildFile; fileRef = E7512973224FFE6100C49DD7 /* Icon-80.png */; };
-		E7512992224FFE6200C49DD7 /* Icon-58.png in Resources */ = {isa = PBXBuildFile; fileRef = E7512974224FFE6100C49DD7 /* Icon-58.png */; };
-		E7512993224FFE6200C49DD7 /* Icon-87.png in Resources */ = {isa = PBXBuildFile; fileRef = E7512975224FFE6100C49DD7 /* Icon-87.png */; };
-		E7512994224FFE6200C49DD7 /* Icon-32.png in Resources */ = {isa = PBXBuildFile; fileRef = E7512976224FFE6100C49DD7 /* Icon-32.png */; };
-		E7512995224FFE6200C49DD7 /* Icon-100.png in Resources */ = {isa = PBXBuildFile; fileRef = E7512977224FFE6100C49DD7 /* Icon-100.png */; };
-		E7512996224FFE6200C49DD7 /* Icon-60.png in Resources */ = {isa = PBXBuildFile; fileRef = E7512978224FFE6100C49DD7 /* Icon-60.png */; };
-		E7512997224FFE6200C49DD7 /* Icon-180.png in Resources */ = {isa = PBXBuildFile; fileRef = E7512979224FFE6100C49DD7 /* Icon-180.png */; };
-		E7512998224FFE6200C49DD7 /* Icon-120.png in Resources */ = {isa = PBXBuildFile; fileRef = E751297A224FFE6100C49DD7 /* Icon-120.png */; };
-		E7512999224FFE6200C49DD7 /* Icon-64.png in Resources */ = {isa = PBXBuildFile; fileRef = E751297B224FFE6100C49DD7 /* Icon-64.png */; };
-		E751299A224FFE6200C49DD7 /* Icon-167.png in Resources */ = {isa = PBXBuildFile; fileRef = E751297C224FFE6200C49DD7 /* Icon-167.png */; };
-		E751299B224FFE6200C49DD7 /* Icon-196.png in Resources */ = {isa = PBXBuildFile; fileRef = E751297D224FFE6200C49DD7 /* Icon-196.png */; };
-		E751299C224FFE6200C49DD7 /* Icon-76.png in Resources */ = {isa = PBXBuildFile; fileRef = E751297E224FFE6200C49DD7 /* Icon-76.png */; };
-		E751299D224FFE6200C49DD7 /* Icon-128.png in Resources */ = {isa = PBXBuildFile; fileRef = E751297F224FFE6200C49DD7 /* Icon-128.png */; };
-		E751299E224FFE6200C49DD7 /* Icon-144.png in Resources */ = {isa = PBXBuildFile; fileRef = E7512980224FFE6200C49DD7 /* Icon-144.png */; };
-		E75129A0224FFF5F00C49DD7 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = E751299F224FFF5E00C49DD7 /* Default.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -399,37 +282,6 @@
 		E751291F224FED7300C49DD7 /* ucolor_pm.frag */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = ucolor_pm.frag; sourceTree = "<group>"; };
 		E7512920224FED7300C49DD7 /* vcolor_pm.vert */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = vcolor_pm.vert; sourceTree = "<group>"; };
 		E7512925224FFC4700C49DD7 /* example.pnm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = example.pnm; sourceTree = "<group>"; };
-		E7512963224FFE5F00C49DD7 /* Icon-16.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-16.png"; sourceTree = "<group>"; };
-		E7512964224FFE5F00C49DD7 /* Icon-114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-114.png"; sourceTree = "<group>"; };
-		E7512965224FFE5F00C49DD7 /* Icon-88.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-88.png"; sourceTree = "<group>"; };
-		E7512966224FFE5F00C49DD7 /* Icon-55.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-55.png"; sourceTree = "<group>"; };
-		E7512967224FFE5F00C49DD7 /* Icon-172.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-172.png"; sourceTree = "<group>"; };
-		E7512968224FFE6000C49DD7 /* Icon-1024.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-1024.png"; sourceTree = "<group>"; };
-		E7512969224FFE6000C49DD7 /* Icon-48.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-48.png"; sourceTree = "<group>"; };
-		E751296A224FFE6000C49DD7 /* Icon-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-50.png"; sourceTree = "<group>"; };
-		E751296B224FFE6000C49DD7 /* Icon-57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-57.png"; sourceTree = "<group>"; };
-		E751296C224FFE6000C49DD7 /* Icon-40.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-40.png"; sourceTree = "<group>"; };
-		E751296D224FFE6000C49DD7 /* Icon-29.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-29.png"; sourceTree = "<group>"; };
-		E751296E224FFE6000C49DD7 /* Icon-256.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-256.png"; sourceTree = "<group>"; };
-		E751296F224FFE6000C49DD7 /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72.png"; sourceTree = "<group>"; };
-		E7512970224FFE6000C49DD7 /* Icon-152.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-152.png"; sourceTree = "<group>"; };
-		E7512971224FFE6000C49DD7 /* Icon-512.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-512.png"; sourceTree = "<group>"; };
-		E7512972224FFE6000C49DD7 /* Icon-20.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-20.png"; sourceTree = "<group>"; };
-		E7512973224FFE6100C49DD7 /* Icon-80.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-80.png"; sourceTree = "<group>"; };
-		E7512974224FFE6100C49DD7 /* Icon-58.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-58.png"; sourceTree = "<group>"; };
-		E7512975224FFE6100C49DD7 /* Icon-87.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-87.png"; sourceTree = "<group>"; };
-		E7512976224FFE6100C49DD7 /* Icon-32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-32.png"; sourceTree = "<group>"; };
-		E7512977224FFE6100C49DD7 /* Icon-100.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-100.png"; sourceTree = "<group>"; };
-		E7512978224FFE6100C49DD7 /* Icon-60.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-60.png"; sourceTree = "<group>"; };
-		E7512979224FFE6100C49DD7 /* Icon-180.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-180.png"; sourceTree = "<group>"; };
-		E751297A224FFE6100C49DD7 /* Icon-120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-120.png"; sourceTree = "<group>"; };
-		E751297B224FFE6100C49DD7 /* Icon-64.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-64.png"; sourceTree = "<group>"; };
-		E751297C224FFE6200C49DD7 /* Icon-167.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-167.png"; sourceTree = "<group>"; };
-		E751297D224FFE6200C49DD7 /* Icon-196.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-196.png"; sourceTree = "<group>"; };
-		E751297E224FFE6200C49DD7 /* Icon-76.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-76.png"; sourceTree = "<group>"; };
-		E751297F224FFE6200C49DD7 /* Icon-128.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-128.png"; sourceTree = "<group>"; };
-		E7512980224FFE6200C49DD7 /* Icon-144.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-144.png"; sourceTree = "<group>"; };
-		E751299F224FFF5E00C49DD7 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -671,37 +523,6 @@
 				E751291D224FED7300C49DD7 /* ucolor_pm.vert */,
 				E751291E224FED7300C49DD7 /* vcolor_pm.frag */,
 				E7512920224FED7300C49DD7 /* vcolor_pm.vert */,
-				E751299F224FFF5E00C49DD7 /* Default.png */,
-				E7512963224FFE5F00C49DD7 /* Icon-16.png */,
-				E7512972224FFE6000C49DD7 /* Icon-20.png */,
-				E751296D224FFE6000C49DD7 /* Icon-29.png */,
-				E7512976224FFE6100C49DD7 /* Icon-32.png */,
-				E751296C224FFE6000C49DD7 /* Icon-40.png */,
-				E7512969224FFE6000C49DD7 /* Icon-48.png */,
-				E751296A224FFE6000C49DD7 /* Icon-50.png */,
-				E7512966224FFE5F00C49DD7 /* Icon-55.png */,
-				E751296B224FFE6000C49DD7 /* Icon-57.png */,
-				E7512974224FFE6100C49DD7 /* Icon-58.png */,
-				E7512978224FFE6100C49DD7 /* Icon-60.png */,
-				E751297B224FFE6100C49DD7 /* Icon-64.png */,
-				E751296F224FFE6000C49DD7 /* Icon-72.png */,
-				E751297E224FFE6200C49DD7 /* Icon-76.png */,
-				E7512973224FFE6100C49DD7 /* Icon-80.png */,
-				E7512975224FFE6100C49DD7 /* Icon-87.png */,
-				E7512965224FFE5F00C49DD7 /* Icon-88.png */,
-				E7512977224FFE6100C49DD7 /* Icon-100.png */,
-				E7512964224FFE5F00C49DD7 /* Icon-114.png */,
-				E751297A224FFE6100C49DD7 /* Icon-120.png */,
-				E751297F224FFE6200C49DD7 /* Icon-128.png */,
-				E7512980224FFE6200C49DD7 /* Icon-144.png */,
-				E7512970224FFE6000C49DD7 /* Icon-152.png */,
-				E751297C224FFE6200C49DD7 /* Icon-167.png */,
-				E7512967224FFE5F00C49DD7 /* Icon-172.png */,
-				E7512979224FFE6100C49DD7 /* Icon-180.png */,
-				E751297D224FFE6200C49DD7 /* Icon-196.png */,
-				E751296E224FFE6000C49DD7 /* Icon-256.png */,
-				E7512971224FFE6000C49DD7 /* Icon-512.png */,
-				E7512968224FFE6000C49DD7 /* Icon-1024.png */,
 			);
 			path = AprilTag3;
 			sourceTree = "<group>";
@@ -816,98 +637,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				E7512926224FFC4700C49DD7 /* example.pnm in Resources */,
-				E75127CA224FDECD00C49DD7 /* LaunchScreen.storyboard in Resources */,
-				E7512991224FFE6200C49DD7 /* Icon-80.png in Resources */,
-				E7043F9722502211006F24AA /* Icon-20.png in Resources */,
-				E75127C7224FDECD00C49DD7 /* Assets.xcassets in Resources */,
-				E7043F6F22502211006F24AA /* .gitignore in Resources */,
-				E7043F7522502211006F24AA /* vcolor_pm.frag in Resources */,
-				E7043F8922502211006F24AA /* Main.storyboard in Resources */,
-				E751298D224FFE6200C49DD7 /* Icon-72.png in Resources */,
-				E7512983224FFE6200C49DD7 /* Icon-88.png in Resources */,
-				E751298A224FFE6200C49DD7 /* Icon-40.png in Resources */,
 				E7043F8822502211006F24AA /* LaunchScreen.storyboard in Resources */,
 				E7043F7222502211006F24AA /* apriltag.pc.in in Resources */,
-				E751299A224FFE6200C49DD7 /* Icon-167.png in Resources */,
-				E7043F9322502211006F24AA /* Icon-87.png in Resources */,
 				E7512922224FED7300C49DD7 /* vcolor_pm.frag in Resources */,
-				E7043F8C22502211006F24AA /* Icon-55.png in Resources */,
-				E7512993224FFE6200C49DD7 /* Icon-87.png in Resources */,
-				E7043F8422502211006F24AA /* Icon-58.png in Resources */,
-				E7043F9C22502211006F24AA /* Default.png in Resources */,
-				E7043F7F22502211006F24AA /* Icon-152.png in Resources */,
-				E751291C224FED2500C49DD7 /* texture_pm.frag in Resources */,
-				E7512923224FED7300C49DD7 /* ucolor_pm.frag in Resources */,
-				E7043F7A22502211006F24AA /* Icon-76.png in Resources */,
 				E7043F5922502211006F24AA /* README.md in Resources */,
-				E75129A0224FFF5F00C49DD7 /* Default.png in Resources */,
 				E7043F8022502211006F24AA /* Assets.xcassets in Resources */,
-				E7043F9122502211006F24AA /* Icon-40.png in Resources */,
-				E7512924224FED7300C49DD7 /* vcolor_pm.vert in Resources */,
-				E7512982224FFE6200C49DD7 /* Icon-114.png in Resources */,
-				E7512997224FFE6200C49DD7 /* Icon-180.png in Resources */,
-				E7043F9A22502211006F24AA /* Icon-100.png in Resources */,
-				E7043F5522502211006F24AA /* .gitignore in Resources */,
-				E7512995224FFE6200C49DD7 /* Icon-100.png in Resources */,
-				E7043F8522502211006F24AA /* Icon-72.png in Resources */,
-				E751299D224FFE6200C49DD7 /* Icon-128.png in Resources */,
-				E7043F7622502211006F24AA /* Icon-120.png in Resources */,
 				E75127C5224FDECD00C49DD7 /* Main.storyboard in Resources */,
-				E7043F8622502211006F24AA /* example.pnm in Resources */,
-				E751291B224FED2500C49DD7 /* texture_pm.vert in Resources */,
-				E751298F224FFE6200C49DD7 /* Icon-512.png in Resources */,
-				E7043F8B22502211006F24AA /* Icon-57.png in Resources */,
-				E751298E224FFE6200C49DD7 /* Icon-152.png in Resources */,
 				E7043F4F22502211006F24AA /* package.xml in Resources */,
-				E7512988224FFE6200C49DD7 /* Icon-50.png in Resources */,
-				E7512998224FFE6200C49DD7 /* Icon-120.png in Resources */,
-				E7512921224FED7300C49DD7 /* ucolor_pm.vert in Resources */,
-				E751298B224FFE6200C49DD7 /* Icon-29.png in Resources */,
-				E7512984224FFE6200C49DD7 /* Icon-55.png in Resources */,
 				E7043F8E22502211006F24AA /* vcolor_pm.vert in Resources */,
-				E7043F9D22502211006F24AA /* Icon-32.png in Resources */,
-				E7512986224FFE6200C49DD7 /* Icon-1024.png in Resources */,
-				E7043F9222502211006F24AA /* Icon-50.png in Resources */,
-				E7512992224FFE6200C49DD7 /* Icon-58.png in Resources */,
-				E7512987224FFE6200C49DD7 /* Icon-48.png in Resources */,
-				E751298C224FFE6200C49DD7 /* Icon-256.png in Resources */,
-				E7043F9E22502211006F24AA /* Info.plist in Resources */,
-				E7512996224FFE6200C49DD7 /* Icon-60.png in Resources */,
-				E7512990224FFE6200C49DD7 /* Icon-20.png in Resources */,
-				E7043F9022502211006F24AA /* Icon-167.png in Resources */,
-				E7043F7C22502211006F24AA /* Icon-48.png in Resources */,
-				E7512989224FFE6200C49DD7 /* Icon-57.png in Resources */,
-				E7512999224FFE6200C49DD7 /* Icon-64.png in Resources */,
-				E7043F8222502211006F24AA /* Icon-180.png in Resources */,
 				E7043F9822502211006F24AA /* ucolor_pm.frag in Resources */,
 				E7043F9422502211006F24AA /* texture_pm.vert in Resources */,
-				E7043F7922502211006F24AA /* happytag1024.png in Resources */,
-				E7043F4722502211006F24AA /* Icon-29.png in Resources */,
-				E7043F9922502211006F24AA /* Icon-128.png in Resources */,
 				E7043F5422502211006F24AA /* README in Resources */,
 				E7043F7E22502211006F24AA /* ucolor_pm.vert in Resources */,
-				E7512985224FFE6200C49DD7 /* Icon-172.png in Resources */,
-				E7512981224FFE6200C49DD7 /* Icon-16.png in Resources */,
-				E7043F8A22502211006F24AA /* Icon-80.png in Resources */,
-				E7043F7422502211006F24AA /* Icon-256.png in Resources */,
-				E7043F9522502211006F24AA /* happytag1024.xcf in Resources */,
-				E751299C224FFE6200C49DD7 /* Icon-76.png in Resources */,
-				E7043F8722502211006F24AA /* Icon-196.png in Resources */,
-				E7043F7B22502211006F24AA /* Icon-60.png in Resources */,
-				E7043F9B22502211006F24AA /* Icon-114.png in Resources */,
-				E7043F8322502211006F24AA /* Icon-64.png in Resources */,
-				E7512994224FFE6200C49DD7 /* Icon-32.png in Resources */,
-				E7043F8D22502211006F24AA /* Icon-172.png in Resources */,
-				E7043F7822502211006F24AA /* Icon-144.png in Resources */,
-				E7043F5722502211006F24AA /* install.sh in Resources */,
-				E7043F7D22502211006F24AA /* Icon-1024.png in Resources */,
-				E751299E224FFE6200C49DD7 /* Icon-144.png in Resources */,
 				E7043F4822502211006F24AA /* texture_pm.frag in Resources */,
-				E7043F7722502211006F24AA /* Icon-88.png in Resources */,
-				E751299B224FFE6200C49DD7 /* Icon-196.png in Resources */,
-				E7043F4922502211006F24AA /* Icon-16.png in Resources */,
-				E7043F9F22502211006F24AA /* Icon-512.png in Resources */,
-				E7043F4D22502211006F24AA /* CMakeLists.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -918,79 +660,41 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E7043F5322502211006F24AA /* Makefile in Sources */,
-				E75128EC224FE8F800C49DD7 /* pnm.c in Sources */,
 				E7043F7122502211006F24AA /* apriltag.c in Sources */,
 				E7043F6A22502211006F24AA /* homography.c in Sources */,
-				E75128E6224FE8F800C49DD7 /* matd.c in Sources */,
 				E7043F6722502211006F24AA /* matd.c in Sources */,
-				E75128DE224FE8F800C49DD7 /* workerpool.c in Sources */,
 				E75128E8224FE8F800C49DD7 /* image_u8x3.c in Sources */,
 				E7043F6222502211006F24AA /* image_u8x4.c in Sources */,
 				E7043F4622502211006F24AA /* CameraWrapper.m in Sources */,
 				E751290D224FE94D00C49DD7 /* tagStandard41h12.c in Sources */,
 				E75128EA224FE8F800C49DD7 /* g2d.c in Sources */,
-				E7043F5022502211006F24AA /* Makefile in Sources */,
 				E7043F5F22502211006F24AA /* workerpool.c in Sources */,
-				E75127FF224FDF2500C49DD7 /* CameraWrapper.m in Sources */,
-				E7043F5122502211006F24AA /* opencv_demo.cc in Sources */,
-				E7512909224FE94D00C49DD7 /* apriltag_pose.c in Sources */,
 				E7043F5B22502211006F24AA /* unionfind.c in Sources */,
-				E7043F5222502211006F24AA /* apriltag_demo.c in Sources */,
-				E751290F224FE94D00C49DD7 /* apriltag.c in Sources */,
 				E7043F8F22502211006F24AA /* main.m in Sources */,
 				E751290A224FE94D00C49DD7 /* tagStandard52h13.c in Sources */,
 				E7512905224FE94D00C49DD7 /* tag25h9.c in Sources */,
 				E7043F8122502211006F24AA /* ViewController.m in Sources */,
-				E7043F6E22502211006F24AA /* apriltag_quad_thresh.c in Sources */,
-				E7043F6022502211006F24AA /* svd22.c in Sources */,
 				E7043F5E22502211006F24AA /* zarray.c in Sources */,
-				E7043F5822502211006F24AA /* tagStandard41h12.c in Sources */,
-				E7043F6922502211006F24AA /* image_u8x3.c in Sources */,
 				E7512915224FE9AD00C49DD7 /* GLESProgram.m in Sources */,
 				E7043F5A22502211006F24AA /* tag16h5.c in Sources */,
 				E75128E5224FE8F800C49DD7 /* string_util.c in Sources */,
 				E75128EB224FE8F800C49DD7 /* getopt.c in Sources */,
-				E7043F6C22502211006F24AA /* getopt.c in Sources */,
-				E7043F6622502211006F24AA /* string_util.c in Sources */,
 				E7043F4E22502211006F24AA /* tagCustom48h12.c in Sources */,
 				E7512906224FE94D00C49DD7 /* tagCircle49h12.c in Sources */,
 				E75128DC224FE8F800C49DD7 /* image_u8.c in Sources */,
-				E7043F7022502211006F24AA /* tagCircle49h12.c in Sources */,
-				E7043F6B22502211006F24AA /* g2d.c in Sources */,
 				E75128DF224FE8F800C49DD7 /* svd22.c in Sources */,
-				E7043F5D22502211006F24AA /* image_u8.c in Sources */,
 				E7512908224FE94D00C49DD7 /* tagCircle21h7.c in Sources */,
 				E7512914224FE9AD00C49DD7 /* ShaderUtilities.c in Sources */,
 				E7043F9622502211006F24AA /* AppDelegate.m in Sources */,
-				E751290C224FE94D00C49DD7 /* tagCustom48h12.c in Sources */,
-				E75128DD224FE8F800C49DD7 /* zarray.c in Sources */,
-				E75128E2224FE8F800C49DD7 /* pam.c in Sources */,
 				E7043F6422502211006F24AA /* time_util.c in Sources */,
 				E7043F6322502211006F24AA /* pam.c in Sources */,
 				E7512918224FE9D700C49DD7 /* udp_util.c in Sources */,
-				E75127C2224FDECD00C49DD7 /* ViewController.m in Sources */,
-				E7043F5622502211006F24AA /* tagCircle21h7.c in Sources */,
-				E75128EE224FE92C00C49DD7 /* tag25h9.c in Sources */,
-				E75128DA224FE8F800C49DD7 /* unionfind.c in Sources */,
-				E7043F4B22502211006F24AA /* tagStandard52h13.c in Sources */,
-				E7043F6522502211006F24AA /* pjpeg-idct.c in Sources */,
 				E75128DB224FE8F800C49DD7 /* zmaxheap.c in Sources */,
 				E751290E224FE94D00C49DD7 /* apriltag_quad_thresh.c in Sources */,
 				E7043F6D22502211006F24AA /* pnm.c in Sources */,
-				E75128E1224FE8F800C49DD7 /* image_u8x4.c in Sources */,
 				E75128E7224FE8F800C49DD7 /* zhash.c in Sources */,
-				E751290B224FE94D00C49DD7 /* tag16h5.c in Sources */,
-				E7043F6122502211006F24AA /* pjpeg.c in Sources */,
 				E7043F4C22502211006F24AA /* tag36h11.c in Sources */,
-				E7043F7322502211006F24AA /* tag25h9.c in Sources */,
 				E7043F4A22502211006F24AA /* apriltag_pose.c in Sources */,
-				E75128E3224FE8F800C49DD7 /* time_util.c in Sources */,
-				E75127CD224FDECD00C49DD7 /* main.m in Sources */,
-				E7043F6822502211006F24AA /* zhash.c in Sources */,
-				E75127BF224FDECD00C49DD7 /* AppDelegate.m in Sources */,
-				E7512907224FE94D00C49DD7 /* tag36h11.c in Sources */,
-				E7043F5C22502211006F24AA /* zmaxheap.c in Sources */,
 				E75128E0224FE8F800C49DD7 /* pjpeg.c in Sources */,
 				E75128E4224FE8F800C49DD7 /* pjpeg-idct.c in Sources */,
 			);

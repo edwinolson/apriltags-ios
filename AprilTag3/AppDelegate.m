@@ -39,7 +39,7 @@
 #include "apriltags/tagCustom48h12.h"
 #include "apriltags/tagCustom48h12.h"
 
-#include "common/homography.c"
+#include "common/homography.h"
 
 
 @interface ImageData : NSObject
