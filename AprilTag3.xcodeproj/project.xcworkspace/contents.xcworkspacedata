@@ -1,6 +1,246 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Workspace
    version = "1.0">
+   <Group
+      location = "group:../AprilTag3/apriltags"
+      name = "apriltags">
+      <FileRef
+         location = "group:apriltag_pose.c">
+      </FileRef>
+      <FileRef
+         location = "group:tagStandard52h13.c">
+      </FileRef>
+      <FileRef
+         location = "group:tag36h11.c">
+      </FileRef>
+      <FileRef
+         location = "group:tag16h5.h">
+      </FileRef>
+      <FileRef
+         location = "group:CMakeLists.txt">
+      </FileRef>
+      <FileRef
+         location = "group:apriltag.h">
+      </FileRef>
+      <FileRef
+         location = "group:tagCircle49h12.h">
+      </FileRef>
+      <FileRef
+         location = "group:tagCustom48h12.c">
+      </FileRef>
+      <FileRef
+         location = "group:package.xml">
+      </FileRef>
+      <FileRef
+         location = "group:Makefile">
+      </FileRef>
+      <Group
+         location = "group:example"
+         name = "example">
+         <FileRef
+            location = "group:opencv_demo.cc">
+         </FileRef>
+         <FileRef
+            location = "group:apriltag_demo.c">
+         </FileRef>
+         <FileRef
+            location = "group:Makefile">
+         </FileRef>
+         <FileRef
+            location = "group:README">
+         </FileRef>
+      </Group>
+      <FileRef
+         location = "group:tagCircle21h7.c">
+      </FileRef>
+      <FileRef
+         location = "group:install.sh">
+      </FileRef>
+      <FileRef
+         location = "group:apriltag_math.h">
+      </FileRef>
+      <FileRef
+         location = "group:tag25h9.h">
+      </FileRef>
+      <FileRef
+         location = "group:tagStandard41h12.c">
+      </FileRef>
+      <FileRef
+         location = "group:README.md">
+      </FileRef>
+      <FileRef
+         location = "group:tag16h5.c">
+      </FileRef>
+      <FileRef
+         location = "group:tagStandard52h13.h">
+      </FileRef>
+      <Group
+         location = "group:common"
+         name = "common">
+         <FileRef
+            location = "group:time_util.h">
+         </FileRef>
+         <FileRef
+            location = "group:floats.h">
+         </FileRef>
+         <FileRef
+            location = "group:pam.h">
+         </FileRef>
+         <FileRef
+            location = "group:unionfind.c">
+         </FileRef>
+         <FileRef
+            location = "group:image_u8x4.h">
+         </FileRef>
+         <FileRef
+            location = "group:matd.h">
+         </FileRef>
+         <FileRef
+            location = "group:zmaxheap.c">
+         </FileRef>
+         <FileRef
+            location = "group:string_util.h">
+         </FileRef>
+         <FileRef
+            location = "group:homography.h">
+         </FileRef>
+         <FileRef
+            location = "group:doubles_floats_impl.h">
+         </FileRef>
+         <FileRef
+            location = "group:g2d.h">
+         </FileRef>
+         <FileRef
+            location = "group:image_u8.c">
+         </FileRef>
+         <FileRef
+            location = "group:image_u8x3.h">
+         </FileRef>
+         <FileRef
+            location = "group:zhash.h">
+         </FileRef>
+         <FileRef
+            location = "group:zarray.c">
+         </FileRef>
+         <FileRef
+            location = "group:workerpool.c">
+         </FileRef>
+         <FileRef
+            location = "group:svd22.c">
+         </FileRef>
+         <FileRef
+            location = "group:pnm.h">
+         </FileRef>
+         <FileRef
+            location = "group:pjpeg.c">
+         </FileRef>
+         <FileRef
+            location = "group:postscript_utils.h">
+         </FileRef>
+         <FileRef
+            location = "group:getopt.h">
+         </FileRef>
+         <FileRef
+            location = "group:image_u8x4.c">
+         </FileRef>
+         <FileRef
+            location = "group:math_util.h">
+         </FileRef>
+         <FileRef
+            location = "group:doubles.h">
+         </FileRef>
+         <FileRef
+            location = "group:unionfind.h">
+         </FileRef>
+         <FileRef
+            location = "group:pam.c">
+         </FileRef>
+         <FileRef
+            location = "group:time_util.c">
+         </FileRef>
+         <FileRef
+            location = "group:pjpeg-idct.c">
+         </FileRef>
+         <FileRef
+            location = "group:string_util.c">
+         </FileRef>
+         <FileRef
+            location = "group:zmaxheap.h">
+         </FileRef>
+         <FileRef
+            location = "group:matd.c">
+         </FileRef>
+         <FileRef
+            location = "group:timeprofile.h">
+         </FileRef>
+         <FileRef
+            location = "group:zarray.h">
+         </FileRef>
+         <FileRef
+            location = "group:zhash.c">
+         </FileRef>
+         <FileRef
+            location = "group:image_types.h">
+         </FileRef>
+         <FileRef
+            location = "group:image_u8x3.c">
+         </FileRef>
+         <FileRef
+            location = "group:image_u8.h">
+         </FileRef>
+         <FileRef
+            location = "group:homography.c">
+         </FileRef>
+         <FileRef
+            location = "group:g2d.c">
+         </FileRef>
+         <FileRef
+            location = "group:pjpeg.h">
+         </FileRef>
+         <FileRef
+            location = "group:getopt.c">
+         </FileRef>
+         <FileRef
+            location = "group:pnm.c">
+         </FileRef>
+         <FileRef
+            location = "group:svd22.h">
+         </FileRef>
+         <FileRef
+            location = "group:workerpool.h">
+         </FileRef>
+      </Group>
+      <FileRef
+         location = "group:tag36h11.h">
+      </FileRef>
+      <FileRef
+         location = "group:apriltag_quad_thresh.c">
+      </FileRef>
+      <FileRef
+         location = "group:apriltag_pose.h">
+      </FileRef>
+      <FileRef
+         location = "group:tagCircle49h12.c">
+      </FileRef>
+      <FileRef
+         location = "group:tagCustom48h12.h">
+      </FileRef>
+      <FileRef
+         location = "group:apriltag.c">
+      </FileRef>
+      <FileRef
+         location = "group:tagCircle21h7.h">
+      </FileRef>
+      <FileRef
+         location = "group:apriltag.pc.in">
+      </FileRef>
+      <FileRef
+         location = "group:tagStandard41h12.h">
+      </FileRef>
+      <FileRef
+         location = "group:tag25h9.c">
+      </FileRef>
+   </Group>
    <FileRef
       location = "self:AprilTag3.xcodeproj">
    </FileRef>
